@@ -386,6 +386,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
 }
 
 .nav > li > .dropdown a {
@@ -1050,9 +1051,13 @@ figure{
     border-radius: 5px;
     box-shadow: #f5f5f5 3px 3px;
     margin: 10px;
+    font-style: italic;
 }
 blockquote{
-    font-style: italic;
+    font-size: 1em;
+}
+figcaption{
+    font-size: 1em;
 }
 
 /*align footer's icons */
@@ -1068,5 +1073,15 @@ blockquote{
 /*adjust color and size of footer's icons links*/
 .social a{
     color: #FFFFFF;
+    font-size: 0.6em;
+}
+
+.col-sm-12{
+    font-size: 1.5em;
+}
+.col-sm-12 p{
     font-size: 0.8em;
+}
+.col-sm-4 p{
+    font-size: 1em;
 }
