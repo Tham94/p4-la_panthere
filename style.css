@@ -748,7 +748,7 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: underline!important;
 }
 
@@ -1036,8 +1036,18 @@ h4 {
         margin-left: auto;
         margin-right: auto;
     }
-    .mg-md {
+    /*adjust margin for h3 on portfolio*/
+    .col-sm-6 .mg-md { 
         margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    /*change padding for text (about the company's aims)*/
+    .black-background{
+        padding: 30px 10px;
+    }
+    /*change padding for text on company's description */
+    .col-sm-12{
+        padding: 0 30px;
     }
 
 }
@@ -1068,6 +1078,7 @@ figcaption{
 .row-no-gutters .social{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 /*adjust color and size of footer's icons links*/
@@ -1083,5 +1094,8 @@ figcaption{
     font-size: 0.8em;
 }
 .col-sm-4 p{
+    font-size: 1em;
+}
+.col-sm-6 p{
     font-size: 1em;
 }
