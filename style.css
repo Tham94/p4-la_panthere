@@ -80,6 +80,21 @@ a:hover {
     background: top no-repeat;
 }
 
+.bloc-bg-texture::before {
+    content: "";
+    background-size: 2px 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.texture-paper::before {
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -712,7 +727,8 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #d6c20a!important;
+    font-weight: 700;
 }
 
 h4 {
@@ -765,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1093,9 +1109,18 @@ figcaption{
 .col-sm-12 p{
     font-size: 0.8em;
 }
+
 .col-sm-4 p{
     font-size: 1em;
 }
 .col-sm-6 p{
     font-size: 1em;
+}
+.main-title{
+    background-color: #953e00;
+    padding: 15px;
+    border-radius: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
