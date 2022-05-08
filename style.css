@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -728,7 +728,8 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1021,6 +1022,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    /*center the portfolio's images*/
+    .col-sm-6{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .portfolio-row {
+        margin: 10px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mg-md {
+        margin-top: 10px;
+    }
+
 }
 
 .capitalized-word{
@@ -1036,6 +1054,8 @@ figure{
 blockquote{
     font-style: italic;
 }
+
+/*align footer's icons */
 .row-no-gutters{
     display: flex;
     justify-content: space-evenly;
@@ -1045,6 +1065,7 @@ blockquote{
     flex-direction: column;
 }
 
+/*adjust color and size of footer's icons links*/
 .social a{
     color: #FFFFFF;
     font-size: 0.8em;
