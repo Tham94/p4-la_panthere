@@ -1120,7 +1120,7 @@ figcaption{
     background-color: #953e00;
     padding: 15px;
     border-radius: 30px;
-    width: 400px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
